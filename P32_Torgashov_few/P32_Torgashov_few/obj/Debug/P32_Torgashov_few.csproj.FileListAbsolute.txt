@@ -1,0 +1,10 @@
+C:\Users\Эдуард\source\repos\P32_Torgashov_few\P32_Torgashov_few\bin\Debug\P32_Torgashov_few.exe.config
+C:\Users\Эдуард\source\repos\P32_Torgashov_few\P32_Torgashov_few\bin\Debug\P32_Torgashov_few.exe
+C:\Users\Эдуард\source\repos\P32_Torgashov_few\P32_Torgashov_few\bin\Debug\P32_Torgashov_few.pdb
+C:\Users\Эдуард\source\repos\P32_Torgashov_few\P32_Torgashov_few\obj\Debug\P32_Torgashov_few.csproj.AssemblyReference.cache
+C:\Users\Эдуард\source\repos\P32_Torgashov_few\P32_Torgashov_few\obj\Debug\P32_Torgashov_few.Form1.resources
+C:\Users\Эдуард\source\repos\P32_Torgashov_few\P32_Torgashov_few\obj\Debug\P32_Torgashov_few.Properties.Resources.resources
+C:\Users\Эдуард\source\repos\P32_Torgashov_few\P32_Torgashov_few\obj\Debug\P32_Torgashov_few.csproj.GenerateResource.cache
+C:\Users\Эдуард\source\repos\P32_Torgashov_few\P32_Torgashov_few\obj\Debug\P32_Torgashov_few.csproj.CoreCompileInputs.cache
+C:\Users\Эдуард\source\repos\P32_Torgashov_few\P32_Torgashov_few\obj\Debug\P32_Torgashov_few.exe
+C:\Users\Эдуард\source\repos\P32_Torgashov_few\P32_Torgashov_few\obj\Debug\P32_Torgashov_few.pdb
