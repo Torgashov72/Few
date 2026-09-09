@@ -44,6 +44,10 @@
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.button_recogn = new System.Windows.Forms.Button();
+            this.button_output = new System.Windows.Forms.NumericUpDown();
+            this.test = new System.Windows.Forms.Button();
+            this.learn = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.button_output)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -205,11 +209,44 @@
             this.button_recogn.Text = "Распознать";
             this.button_recogn.UseVisualStyleBackColor = true;
             // 
+            // button_output
+            // 
+            this.button_output.Location = new System.Drawing.Point(364, 126);
+            this.button_output.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.button_output.Name = "button_output";
+            this.button_output.Size = new System.Drawing.Size(120, 20);
+            this.button_output.TabIndex = 16;
+            // 
+            // test
+            // 
+            this.test.Location = new System.Drawing.Point(364, 182);
+            this.test.Name = "test";
+            this.test.Size = new System.Drawing.Size(75, 23);
+            this.test.TabIndex = 17;
+            this.test.Text = "test";
+            this.test.UseVisualStyleBackColor = true;
+            // 
+            // learn
+            // 
+            this.learn.Location = new System.Drawing.Point(364, 238);
+            this.learn.Name = "learn";
+            this.learn.Size = new System.Drawing.Size(75, 23);
+            this.learn.TabIndex = 18;
+            this.learn.Text = "learn";
+            this.learn.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.learn);
+            this.Controls.Add(this.test);
+            this.Controls.Add(this.button_output);
             this.Controls.Add(this.button_recogn);
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button14);
@@ -228,6 +265,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.button_output)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -250,6 +288,9 @@
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button_recogn;
+        private System.Windows.Forms.NumericUpDown button_output;
+        private System.Windows.Forms.Button test;
+        private System.Windows.Forms.Button learn;
     }
 }
 
