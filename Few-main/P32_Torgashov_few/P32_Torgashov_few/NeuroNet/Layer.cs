@@ -58,6 +58,55 @@ namespace P32_Torgashov_few.NeuroNet
         }
         public double[,] WeightInitilize(MemoryMode mm,string path)
         {
+            char[] delim = new char[] { ' ', ';' }; //разделитель
+            string tmpStr;
+            string[] tmpStrWeights;
+            double[,] weights = new double[numofneurons, numofprevneurons + 1];
+            switch (mm)
+            {
+                case MemoryMode.GET:
+                    tmpStrWeights = File.ReadAllLines(path);
+                    string[] memmory_element;
+                    for(int i = 0; i < numofneurons; i++)
+                    {
+                        memmory_element = tmpStrWeights[i].Split(delim);
+                        for(int j = 0;j < numofprevneurons; j++)
+                        {
+                            weights[i,j]=double.Parse(memmory_element[j].Replace(',','.'),
+                                System.Globalization.CultureInfo.InvariantCulture);
+                        }
+                    }
+                    break;
+
+
+
+                case MemoryMode.SET:
+                    tmpStrWeights = new string[numofneurons];
+                    if (!File.Exists(path))
+                    {
+                        MessageBox.Show("Внимание файле нет\n"+ MessageBoxButtons.OK + MessageBoxIcon.Exclamation);
+                    }
+                    for(int i = 0;i<numofneurons;i++)
+                    {
+                        tmpStr = neurons[i].Weights[0].ToString();
+                        for(int j = 0; j < numofprevneurons; j++)
+                        {
+                            tmpStr += delim[0] + neurons[i].Weights[j].ToString();
+                        }
+                        tmpStrWeights[i] = tmpStr;
+                    }
+                    File.WriteAllLines(path, tmpStrWeights);
+                    break;
+
+
+
+                case MemoryMode.INIT:
+                    break;
+                default:
+                    break;
+            }
+
+
             return new double[1, 1];
         }
     }

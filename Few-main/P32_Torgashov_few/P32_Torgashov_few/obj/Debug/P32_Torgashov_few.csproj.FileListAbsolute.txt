@@ -18,3 +18,4 @@ Z:\Few-main\P32_Torgashov_few\P32_Torgashov_few\obj\Debug\P32_Torgashov_few.cspr
 Z:\Few-main\P32_Torgashov_few\P32_Torgashov_few\obj\Debug\P32_Torgashov_few.exe
 Z:\Few-main\P32_Torgashov_few\P32_Torgashov_few\obj\Debug\P32_Torgashov_few.pdb
 Z:\Few-main\P32_Torgashov_few\P32_Torgashov_few\obj\Debug\P32_Torgashov_few.FormMain.resources
+Z:\Few-main\P32_Torgashov_few\P32_Torgashov_few\obj\Debug\P32_Torgashov_few.exe.config

@@ -19,7 +19,7 @@ namespace P32_Torgashov_few.NeuroNet
     }
     enum NetworkMode
     {
-        Tain,
+        Train,
         Test,
         Demo
     }
